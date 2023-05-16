@@ -1,10 +1,11 @@
 import React from 'react'
 import AdditionalLinks from './AdditionalLinks'
 import { Helmet } from "react-helmet";
+import '../App.css'
 function Good() {
   return (
     <div>
-         <Helmet>
+        <Helmet>
       <title> 🐇 Good Vibes Everlasting</title>
       </Helmet>
       <h1>Good Vibes Everlasting</h1>
@@ -29,10 +30,10 @@ function Good() {
           Regardless of their tradition, or personal interpretation of the world, and/or the divine, by professing top tier vibes as one for all and all for one, a person performs a move towards the forever city: they affirm the purpose and meaning of the universe as the ultimate root of all endeavour. They bear witness to Creation, and see that it is Good Vibes.
           </p>
          </div>
+   </div>
          <div>
         <AdditionalLinks />
       </div>
-   </div>
     </div>
   )
 }

@@ -131,7 +131,9 @@ When you live in the moment you are empowered to become who you want to be.
           </div>
       </div>
       <div>
+        <div className='paragraph'>
       <img src={v} alt="ware" className="batman-image" />
+      </div>
         <AdditionalLinks />
       </div>
     </div>

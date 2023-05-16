@@ -1,6 +1,5 @@
 import React from 'react'
 import AdditionalLinks from './AdditionalLinks'
-import '../Files.css'
 import pragmatism from '../assest/pragmatism.jpeg'
 import web from '../assest/web.jpg'
 import { Helmet } from "react-helmet";
@@ -81,9 +80,8 @@ There are many articles online talking about simulation theory and the idea that
       </p>
       </div>
     </div>
-      <div>
+  
     <AdditionalLinks />
-  </div>
     </div>
   )
 }

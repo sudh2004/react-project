@@ -109,8 +109,14 @@
   font-weight: 900;
 }
 
+.content
+{
+    text-align: start;
+    margin: 0 10em;
+    text-align: justify;
+}
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
   
 .title
 {
@@ -134,7 +140,7 @@
   color:blue;
   line-height: 3em;
   text-align: start;
-  margin-left: 10em;
+  margin-left: 5em;
   font-size: 1.2em;
 }
 .nav:hover
@@ -148,7 +154,8 @@
 .list-items
 {
   text-align: start;
-  margin-left: 5em;
+  margin: 0em 2em;
+
   font-size: 1.4em;
   line-height: 2em;
 }
@@ -168,19 +175,25 @@
 
 .batman-image
 {
-  width: 40em;
+  width: 20em;
   height: 20em;
 }
 
 .paragraph
 {
-  margin: 5em 10em 5em 10em;
+  margin: 5em 5em 5em 5em;
   line-height: 2em;
 }
 
 .hr{
   margin-right: 15em;
   font-weight: 900;
+}
+.content
+{
+    text-align: start;
+    margin: 0 1em;
+    text-align: justify;
 }
 }
 
